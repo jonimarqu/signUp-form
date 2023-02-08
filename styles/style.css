@@ -1,0 +1,80 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&display=swap');
+@font-face {
+  font-family: top-font;
+  src: url(../fonts/Norse-Bold.otf);
+}
+body {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.side-hero {
+  background-image: url(../images/flowers.jpeg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 130px;
+  font-family: top-font, 'Hind Vadodara', sans-serif;
+  font-size: 80px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 10px 0 10px;
+  transform: translateY(-100%);
+}
+
+.logo {
+  height: inherit;
+}
+
+span {
+  display: flex;
+  text-align: center;
+}
+
+footer {
+  align-self: center;
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  color: white;
+  font-size: x-small;
+}
+
+a:visited {
+  color: white;
+}
+
+main {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.above, .below {
+  padding: 20px 25px 20px;
+  height: 35vh;
+  max-width: 500px;
+}
+
+.form{
+  background-color: azure;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px 25px 20px;
+  flex-direction: column;
+}
